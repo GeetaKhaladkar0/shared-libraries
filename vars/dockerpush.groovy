@@ -6,3 +6,4 @@ def call(String dockerHubUser, String ProjectName, String ImageName){
   }
     sh "docker push ${dockerHubUser}/${ProjectName}:${ImageName}"
 }
+
